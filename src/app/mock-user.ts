@@ -1,8 +1,10 @@
+import { User } from './user/user';
+
 export const MockUser: User =
   {
-    "country": "string",
-    "display_name": "string",
-    "email": "string",
+    "country": "USA",
+    "display_name": "wekraftyy",
+    "email": "will.kraft@test.com",
     "explicit_content": {
       "filter_enabled": true,
       "filter_locked": true
@@ -12,7 +14,7 @@ export const MockUser: User =
     },
     "followers": {
       "href": "string",
-      "total": 0
+      "total": 36
     },
     "href": "string",
     "id": "string",

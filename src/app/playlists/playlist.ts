@@ -8,11 +8,11 @@ export interface Playlist {
     total: number,
   },
   id: string,
-  images: {
+  images: [{
     url: string,
     height: number,
     width: number,
-  },
+  }],
   name: string,
   owner: {
     external_urls: {

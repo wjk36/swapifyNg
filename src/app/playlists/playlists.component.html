@@ -1,1 +1,7 @@
-<p>Number of Playlists: {{ playlist.total }}</p>
+<div>
+  <p>Number of Playlists: {{ playlist.total }}</p>
+  <ul *ngFor="let playlist of playlist.items">
+    <h2>{{ playlist.name }}</h2>
+    <p>Tracks: {{ playlist.tracks.total }}</p>
+  </ul>
+</div>
