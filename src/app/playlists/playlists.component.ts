@@ -3,8 +3,8 @@ import { MockPlaylists } from '../mock-playlists';
 
 @Component({
   selector: 'app-playlist',
-  templateUrl: './playlist.component.html',
-  styleUrls: ['./playlist.component.css']
+  templateUrl: './playlists.component.html',
+  styleUrls: ['./playlists.component.css']
 })
 export class PlaylistsComponent implements OnInit {
 
