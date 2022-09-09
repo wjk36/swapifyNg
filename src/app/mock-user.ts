@@ -1,4 +1,4 @@
-import { User } from './user/user';
+import { User } from './components/user/user';
 
 export const MockUser: User =
   {

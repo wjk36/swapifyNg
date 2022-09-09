@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MockPlaylists } from '../mock-playlists';
+import { MockPlaylists } from '../../mock-playlists';
 
 @Component({
   selector: 'app-playlist',

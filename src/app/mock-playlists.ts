@@ -1,4 +1,4 @@
-import { Playlists } from './playlists/playlists';
+import { Playlists } from './components/playlists/playlists';
 
 export const MockPlaylists: Playlists =
   {
